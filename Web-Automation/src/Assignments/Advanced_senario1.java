@@ -273,7 +273,7 @@ public class Advanced_senario1 {
 	}
 public static void deleteuser1() {
 		
-		try {//*[@id="userListTableContainer"]/table/tbody/tr[2]/td[1]/table/tbody/tr/td/div[1]/span[2]
+		try {
 			driver.findElement(By.xpath("//a[@class='content users']")).click();
 			driver.findElement(By.xpath(
 					"//*[@id=\"userListTableContainer\"]/table/tbody/tr[2]/td[1]/table/tbody/tr/td/div[1]/span[2]"))
