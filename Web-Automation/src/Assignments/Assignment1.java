@@ -35,6 +35,7 @@ public class Assignment1 {
 	public static void navigate()
 	{
 		try {
+		
 		driver.get("http://localhost/login.do");
 		}catch (Exception e)
 		{
